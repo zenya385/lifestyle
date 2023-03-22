@@ -1,0 +1,137 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  color: #626262;
+  font-family: 'Playfair Display';
+  font-weight: 400;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.navigate {
+  padding: 70px 320px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 14px;
+  line-height: 1.36;
+
+  color: #7D7D7D;
+}
+
+.nav-item:not(:last-child) {
+  /* margin-right: 100px; */
+}
+
+.nav-link {
+  display: block;
+  color: #7D7D7D;
+  /* cursor: pointer; */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card-item {
+  width: calc((100% - 4 * 68px)/2);
+  margin: 33px;
+}
+
+.card-item:not(:last-child) {
+  margin-bottom: 130px;
+}
+
+.card-image {}
+
+.card-lifestyle {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: #B4AD9E;
+
+  margin-top: 62px;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.33;
+
+  color: #626262;
+  margin-top: 32px;
+
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 40px;
+}
+
+.btn-load-more {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+
+    display: block;
+    border: 1px solid #626262;
+    color: #626262;
+    padding: 20px 48px 21px 49px;
+    margin: 0 auto;
+    background: transparent;
+    margin-bottom: 47px;
+}
