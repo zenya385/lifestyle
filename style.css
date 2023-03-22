@@ -47,12 +47,12 @@ body {
 
 
 .navigate {
-  padding: 70px 320px;
+  padding: 70px 280px;
 }
 
 .nav-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   font-size: 14px;
@@ -62,13 +62,12 @@ body {
 }
 
 .nav-item:not(:last-child) {
-  /* margin-right: 100px; */
+  margin-right: 20px;
 }
 
 .nav-link {
   display: block;
   color: #7D7D7D;
-  /* cursor: pointer; */
 }
 
 .card {
@@ -80,7 +79,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .card-item {
@@ -91,8 +89,6 @@ body {
 .card-item:not(:last-child) {
   margin-bottom: 130px;
 }
-
-.card-image {}
 
 .card-lifestyle {
   font-weight: 300;
@@ -111,7 +107,6 @@ body {
 
   color: #626262;
   margin-top: 32px;
-
 }
 
 .card-text {
@@ -121,17 +116,14 @@ body {
 }
 
 .btn-load-more {
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.14;
+  font-size: 14px;
+  line-height: 1.14;
 
-    display: block;
-    border: 1px solid #626262;
-    color: #626262;
-    padding: 20px 48px 21px 49px;
-    margin: 0 auto;
-    background: transparent;
-    margin-bottom: 47px;
+  display: block;
+  border: 1px solid #626262;
+  color: #626262;
+  padding: 20px 48px 21px 49px;
+  margin: 0 auto;
+  background: transparent;
+  margin-bottom: 47px;
 }
